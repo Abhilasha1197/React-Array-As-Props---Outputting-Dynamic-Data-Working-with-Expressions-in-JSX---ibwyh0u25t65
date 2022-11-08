@@ -11,7 +11,7 @@ const Join = (props) =>{
   )
 }
 const App = () => {
-     var arr = ['ghj','fgh','dfg']
+     var arr = ["","",""]
   return (
     <div id="main">
       <Join words={arr} />
