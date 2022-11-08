@@ -11,10 +11,10 @@ const Join = (props) =>{
   )
 }
 const App = () => {
-     var words = ['ghj','fgh','dfg']
+     var arr = ['ghj','fgh','dfg']
   return (
     <div id="main">
-      <Join arr={words} />
+      <Join words={arr} />
     </div>
   )
 }
