@@ -6,12 +6,12 @@ const Join = (props) =>{
   return(
     <div id ="join">
       {/* Access prop 'words' and print it using .join like words.join(',')*/}
-      {props.words.join(',')}
+    <p>{props.words.join(",")}</p>
     </div>
   )
 }
 const App = () => {
-     var arr = ["","",""]
+
   return (
     <div id="main">
       <Join words={arr} />
